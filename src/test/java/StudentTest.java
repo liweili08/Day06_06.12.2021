@@ -16,12 +16,24 @@ class StudentTest {
         testStudent.setAge(21);
 
         assertEquals(21, testStudent.getAge());
-    }@Test
+    }
+//    @Test
+//    void TestMale(){
+//        Student testStudent = new Student();
+//        testStudent.setMale(false);
+//        assertFalse(testStudent.getMale());
+//    }
+//    @Test
+//    void TestMale(){
+//        Student testStudent = new Student();
+//        testStudent.setMale(false);
+//        assertEquals(false,testStudent.getMale());
+//    }
+    @Test
     void TestMale(){
         Student testStudent = new Student();
         testStudent.setMale(false);
-        assertFalse(testStudent.getMale());
+        assertEquals(false,testStudent.isMale());
     }
-
 
 }

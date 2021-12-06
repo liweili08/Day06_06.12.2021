@@ -20,7 +20,12 @@ public class Student {
         this.age = age;
     }
 
-    public boolean getMale() {
+//    public boolean getMale() {
+//        return isMale;
+//    }
+
+
+    public boolean isMale() {
         return isMale;
     }
 
